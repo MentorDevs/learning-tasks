@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+/*----------------------------------------*/
+
+/* Your styles starte here */
+body {
+  font-size: 16px;
+}
+/* Use css selectors to style elements */
+h1 {
+  font-weight: normal;
+}
+
+.nav {
+  padding-top: 50px;
+}
+
+/* Style Multiple Elements with a CSS Class */
+.container-wide {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.input-group {
+  padding: 40px 0;
+}
+
+form {
+  width: 100%;
+}
