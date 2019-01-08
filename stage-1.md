@@ -36,7 +36,3 @@ Background color, id attributes, padding, margin and negative margin
 > - Set the form margin top to -70px.
 > - Set the form padding top and bottom to 30px and right and left to 160px.
 > - The form element and container class should have a maximum width of 900px.
-
-
-
-
