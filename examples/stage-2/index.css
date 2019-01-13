@@ -1,0 +1,94 @@
+body {
+  background-color: darkslategrey;
+  color: white;
+}
+
+img {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 400px;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.card {
+  width: 400px;
+  height: 550px;
+  background: mintcream;
+  border-radius: 50px 0;
+  color: rgba(0, 0, 0, 0.671);
+  overflow: hidden;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.473);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.8;
+}
+
+#name {
+  background-color: aquamarine;
+}
+
+.card > a:hover {
+  transform: scale(1.2);
+}
+
+.job-title {
+  text-transform: uppercase;
+}
+
+.about {
+  margin-left: 50px;
+  min-width: 400px;
+  max-width: 700px;
+}
+
+.about-item {
+  margin-bottom: 50px;
+}
+
+.about p {
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.8rem;
+}
+
+.about h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hobbies {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+}
+
+li + li {
+  margin-top: 16px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  .about {
+    margin-left: 0;
+  }
+}
