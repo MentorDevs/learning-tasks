@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px sans-serif;
+  color: #333;
+  line-height: 1.5;
+  background: #f9f9f9;
+}
+
+/* Colors */
+nav {
+  background: #333;
+  color: #fdfdfd;
+}
+
+/* Typography */
+a {
+  color: #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.quote {
+  font-size: 2.25rem;
+}
+
+/* Layout */
+nav {
+  width: 100%;
+  padding: 20px 0;
+}
+
+nav span {
+  float: right;
+}
+
+nav a {
+  margin-left: 20px;
+}
+
+nav span a {
+  margin-right: 20px;
+}
+
+.card {
+  padding: 40px;
+  max-width: 840px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 5px 10px #f0f0f0;
+}
+
+.quote-card {
+  margin: 20px auto;
+  background: transparent;
+  box-shadow: none;
+}
+
+.intro-card {
+  margin: 40px auto;
+  
+}
+
+.profile {
+  float: right;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 50%;
+  margin-top: -120px;
+}
+
+.single-project-card {
+  width: 48%;
+  float: left;
+  margin-right: 10px;
+  min-height: 300px;
+}
+
+.single-project-card.last {
+  margin-right: 0;
+  width: 50%;
+}
+
+.project-card {
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  min-height: 40px;
+  padding: 0 20px;
+}
+
+.contact-form, 
+.clear {
+  clear: both;
+}
+
+.contact-form-card {
+  margin: 0 auto 40px;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+.input-group.half {
+  width: 49%;
+  float: left;
+}
+
+.input-group.clear {
+  padding-top: 20px;
+}
+
+input,
+textarea {
+  min-height: 40px;
+}
+
+input {
+  border: none;
+  background: #f0f0f0;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: solid 1px #f0f0f0;
+}
+
+.stand-alone {
+  max-width: 840px;
+  margin: 40px auto;
+  padding: 40px;
+}
