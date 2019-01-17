@@ -6,7 +6,7 @@ body {
   font: 16px sans-serif;
   color: #333;
   line-height: 1.5;
-  background: #f9f9f9;
+  background-color: #fef89a;
 }
 
 /* Colors */
@@ -30,6 +30,14 @@ nav a {
 }
 
 /* Layout */
+.name-card p {
+  color: #909090;
+}
+
+.intro-text {
+  padding-bottom: 40px;
+}
+
 nav {
   width: 100%;
   padding: 20px 0;
@@ -52,7 +60,8 @@ nav span a {
   max-width: 840px;
   margin: auto;
   background-color: #fff;
-  box-shadow: 0 5px 10px #f0f0f0;
+  box-shadow: 0 5px 5px #909090;
+  border-radius: 10px;
 }
 
 .quote-card {
@@ -61,9 +70,39 @@ nav span a {
   box-shadow: none;
 }
 
-.intro-card {
+.introduction,
+.project,
+.contact-form {
+  background-color: #fef89a;
+  width: 100%;
+  transform: skewY(5deg);
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.introduction {
+  padding-top: 0;
+}
+
+.project {
+  background-color: #a9ebef;
+  transform: skewY(-5deg);
+}
+
+.project-card {
+  transform: skewY(5deg);
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  background-color: #f5b4fe;
+}
+
+.intro-card, 
+.contact-form-card,
+.stand-alone {
   margin: 40px auto;
-  
+  transform: skewY(-5deg);
 }
 
 .profile {
@@ -78,7 +117,18 @@ nav span a {
   width: 48%;
   float: left;
   margin-right: 10px;
-  min-height: 300px;
+  min-height: 460px;
+  box-shadow: none;
+  border: 1px solid #f0f0f0;
+  padding: 0;
+  position: relative;
+}
+
+.project-description {
+  padding: 40px;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
 }
 
 .single-project-card.last {
@@ -86,25 +136,24 @@ nav span a {
   width: 50%;
 }
 
-.project-card {
-  margin-bottom: 40px;
-}
-
 button {
-  background-color: #333;
+  background-color: #45bee1;
   color: #fff;
   border: none;
   min-height: 40px;
-  padding: 0 20px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #909090;
 }
 
-.contact-form, 
+ 
 .clear {
   clear: both;
 }
 
 .contact-form-card {
   margin: 0 auto 40px;
+  
 }
 
 .input-group {
@@ -143,4 +192,18 @@ textarea {
   max-width: 840px;
   margin: 40px auto;
   padding: 40px;
+}
+
+.img-niyaleo,
+.img-currency {
+  height: 200px;
+  background-color: #909090;
+  background-image: url('../img/niyaleo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-currency {
+  background-image: url('../img/currency.png');
+  background-size: contain;
 }
